@@ -17,9 +17,9 @@ class HomePage extends StatelessWidget {
           gradient: LinearGradient(
             begin: Alignment.topCenter,
             colors: [
-              Colors.orange[900]!,
-              Colors.orange[800]!,
-              Colors.orange[400]!
+              Color.fromARGB(255, 0, 0, 230),
+              Color.fromARGB(255, 0, 0, 230),
+              Color.fromARGB(255, 0, 0, 230),
             ],
           ),
         ),
@@ -135,7 +135,7 @@ class HomePage extends StatelessWidget {
                         ),
                         Text(
                           'Forgot Password?',
-                          style: TextStyle(color: Colors.grey),
+                          style: TextStyle(color: Colors.black),
                         ),
                         SizedBox(
                           height: 40,
@@ -145,7 +145,7 @@ class HomePage extends StatelessWidget {
                           margin: EdgeInsets.symmetric(horizontal: 50),
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(50),
-                            color: Colors.orange[900],
+                            color: const Color.fromARGB(255, 0, 0, 230),
                           ),
                           child: Center(
                             child: Text(
@@ -163,7 +163,7 @@ class HomePage extends StatelessWidget {
                         Text(
                           'Continue with social media',
                           style: TextStyle(
-                            color: Colors.grey,
+                            color: Colors.black,
                           ),
                         ),
                         SizedBox(
